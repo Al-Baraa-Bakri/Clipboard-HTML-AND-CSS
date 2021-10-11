@@ -1,0 +1,49 @@
+:root {
+  --heading-color: rgb(76, 84, 93);
+  --p-color: rgb(159, 179, 205);
+  --button-color: white;
+  --button-ios-back-color: rgb(38, 186, 164);
+  --button-mac-back-color: rgb(97, 115, 255);
+  --body-color: white;
+  --footer-color: rgb(239, 239, 239);
+  --color-light-blue: hsla(233, 100%, 80%, 0.911);
+  --color-dark-blue: hsla(233, 100%, 55%, 0.644);
+}
+body {
+  background-color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+}
+p {
+  color: var(--p-color);
+}
+button {
+  color: var(--button-color);
+  padding: 15px 35px;
+  border-radius: 90px;
+  -webkit-border-radius: 90px;
+  -moz-border-radius: 90px;
+  -ms-border-radius: 90px;
+  -o-border-radius: 90px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 0.2em 0 var(--color-dark-blue),
+    0 0.6em 1.5em -0.5em var(--color-light-blue);
+}
+button.mac {
+  background-color: var(--button-mac-back-color);
+}
+button.ios {
+  background-color: var(--button-ios-back-color);
+}
+footer {
+  background-color: var(--footer-color);
+}
